@@ -11,11 +11,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "supportsRTL": true
+    },
+    "plugins": ["expo-localization"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "aleqsio.app"
     },
     "android": {
       "adaptiveIcon": {
